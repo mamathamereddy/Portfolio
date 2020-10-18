@@ -28,19 +28,22 @@ const Banner = () => {
                     </li>
                   </a>
 
-                  <a href="https://github.com/mamathamereddy">
+                  <a href="https://github.com/mamathamereddy" target="_blank"
+                    rel="noopener noreferrer">
                     <li>
                       <FaGithubAlt className="headerIcon" />
                     </li>
                   </a>
 
-                  <a href="https://www.linkedin.com/in/mereddy-mamatha/">
+                  <a href="https://www.linkedin.com/in/mereddy-mamatha/" target="_blank"
+                    rel="noopener noreferrer">
                     <li>
                       <FaLinkedinIn className="headerIcon" />
                     </li>
                   </a>
 
-                  <a href="https://www.instagram.com/mamatha.mereddy/">
+                  <a href="https://www.instagram.com/mamatha.mereddy/" target="_blank"
+                    rel="noopener noreferrer">
                     <li>
                       <FaInstagram className="headerIcon" />
                     </li>
