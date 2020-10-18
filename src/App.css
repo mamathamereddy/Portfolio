@@ -1,0 +1,636 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*Banner page*/
+
+.header {
+  width: 100%;
+  height: 100vh;
+  /* background: url("/images/bg.jpg"); */
+  background-image: linear-gradient(to right,#e0964d, #044c86);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+/*common for every component*/
+.container {
+  /* width: 1200px; */
+  margin: 10px auto;
+}
+.common {
+  width: 33.33333333333333%;
+  margin: 20px auto;
+  text-align: center;
+}
+.mainHeader {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.mainHeaderb{
+  
+  color: rgb(3, 3, 3);
+}
+.commonBorder {
+  background: #ff4a57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
+}
+
+/*common for every component*/
+
+/* Grid System */
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.col-6 {
+  width: 50%;
+}/* Grid System End*/
+
+/* header */
+.header__content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  margin-left: 30px;
+}
+.header__section h1 {
+  font-size: 57px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.header__section p {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+.header__ul {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 40px;
+}
+.header__ul li {
+  width: 50px;
+  height: 50px;
+  border: 2px solid  #2e1e0a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+.header__ul li:hover {
+  background: #fff;
+  border: 2px solid transparent;
+}
+.header__ul li:hover .headerIcon {
+  color: #ff4a57;
+}
+.header__ul li:first-child {
+  margin-left: 0;
+}
+/* header end */
+/*Banner page end*/
+
+
+
+/*Nav page*/
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  background: #1f2235;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__container {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar__left-logo img {
+  width: 110px;
+  margin-left: 30px;
+}
+
+.navbar__right {
+  display: flex;
+  list-style-type: none;
+}
+.navbar__right li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0 15px;
+}
+
+.toggle {
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  background: #000;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+
+/*Nav page end*/
+
+
+/*About Page*/
+.about {
+  width: 100%;
+  background: #FFF;
+  padding: 100px 0;
+  
+}
+.about__img {
+  padding: 30px;
+}
+.about__img img {
+  width: 300px;
+  height: 400px;
+}
+.about__info {
+  color: black;
+  margin-left: 30px;
+}
+.about__info h1 {
+  margin-bottom: 30px;
+}
+.about__info-p1 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.about__info-p2 {
+  font-size: 14px;
+}
+
+.info__contacts {
+  margin-top: 20px;
+}
+.info__contacts strong {
+  color: #ff4a57;
+}
+.info__contacts p {
+  margin-top: 3px;
+}
+.info__contacts .col-12 {
+  margin: 10px 0;
+}
+/*About page end*/
+
+
+/* Skills page */
+.skills {
+  background: #1f2235;
+  padding: 100px 0;
+  width:100%
+}
+.skills__box {
+  /* padding: 25px; */
+  color: #1f2235;
+  margin: 25px;
+  transition: all 0.5s linear;
+}
+.skills__box:hover {
+  background: #ff4a57;
+
+}
+.col-4 {
+  width:15%;
+}
+.bgMain {
+  background: #1f2235;
+}
+/* Skills page end*/
+
+ Helpers
+.h-650 {
+  height: 650px;
+}
+.alignCenter {
+  align-items: center;
+}
+.justifyConter {
+  justify-content: center;
+} 
+
+.btn {
+  outline: none;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+
+}
+.btn-outline {
+  border: 2px solid #2e1e0a;
+  border-radius: 50px;
+  padding: 13px 40px;
+  
+}
+
+.banner__img {
+  padding: 0 30px;
+  margin-top: 150px;
+}
+
+/*Projects*/
+.featured-rooms-center {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 40px;
+}
+@media screen and (min-width: 776px) {
+  .featured-rooms-center {
+    width: 90vw;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  }
+}
+@media screen and (min-width: 992px) {
+  .featured-rooms-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+}
+.room {
+  box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s linear;
+}
+.room:hover {
+  box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.img-container {
+  position: relative;
+}
+.img-container img {
+  width: 100%;
+  height:250px;
+  display: block;
+  transition: all 0.3s linear;
+}
+ .price-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 0.3rem 0.6rem 0.5rem;
+  border-bottom-right-radius: 1rem;
+  font-size: 0.5rem;
+  text-align: center;
+  transition: all 0.3s linear;
+} 
+.price-top h6 {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 3px;;
+} 
+.room-link{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(0);
+  transition: all 0.3s linear;
+  
+  
+} 
+
+.img-container:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+.img-container:hover img {
+  opacity: 0.3;
+}
+.img-container:hover .price-top {
+  opacity: 0;
+}
+.img-container:hover .room-link {
+  transform: translate(-50%, -50%) scale(1);
+}
+.room-info {
+  background: #cfcfcf;;
+  text-transform: capitalize;
+  padding: 0.5rem 0;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing:3px;
+}
+
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  background:  #af9a7d;
+  padding: .4rem .9rem;
+  text-transform: uppercase;
+    cursor: pointer;
+
+}
+.img-container li{
+    display:flex;
+  margin: 20px;
+}
+
+/*end of projects*/
+
+/*Experience*/
+
+.headerExp{
+  font-size: 32px;
+  /* margin-bottom: 20px; */
+  color: rgb(248, 240, 240);
+  text-align: center;
+}
+
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.containerExp {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.containerExp::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  /* z-index: 1; */
+}
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+.right {
+  left: 50%;
+}
+ 
+ /* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  /* z-index: 1; */
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  /* z-index: 1; */
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.content span{
+  font-size: 12px;
+  color:grey;
+  opacity: 0.5;
+}
+.content p{
+  display: block;
+  margin: 10px;
+  font-size: 14px;
+}
+
+.content .task,h4{
+  color:orangered
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .containerExp{
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .containerExp::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+/*end of experience*/
+
+
+/*education*/
+.education {
+  padding: 100px 0;
+  
+  width: 100%;
+ 
+}
+.common-edu{
+  margin: 20px auto;
+  text-align: center;
+}
+.education{
+  margin-top: 40px;
+  width:70%;
+  margin-left:12rem
+}
+.educationb{
+  color:black;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 60px;
+}
+input {
+  display: none;
+}
+
+label {
+  display: block;    
+  padding: 8px 22px;
+  margin: 0 0 1px 0;
+  cursor: pointer;
+  background: #a17f22;
+  border-radius: 3px;
+  color: #FFF;
+  transition: ease .5s;
+}
+
+label:hover {
+  background: #4E8774;
+}
+
+.content {
+  background: #E2E5F6;
+  padding: 10px 25px;
+  border: 1px solid #A7A7A7;
+  margin: 0 0 1px 0;
+  border-radius: 3px;
+}
+
+input + label + .content {
+  display: none;
+}
+
+input:checked + label + .content {
+  display: block;
+}
+.headerEdu{
+  color:black;
+  font-size: 32px;
+  text-align: center;
+}
+/*end of education*/
+
+/* ------------ */
+@media (max-width: 765px) {
+  .container {
+    width: 100%;
+    padding: 0 50px;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .navbar__right {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background: #1f2235;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .navbar__right li a {
+    display: block;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  .toggle {
+    display: flex;
+  }
+  .banner__img img {
+    display: none;
+  }
+  .header__section h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .header__section p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  .common {
+    width: 100%;
+  }
+  .h-650 {
+    height: auto;
+  }
+}
