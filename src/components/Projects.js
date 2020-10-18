@@ -22,6 +22,7 @@ const Projects = () => {
                   <a
                     href={item.githubUrl}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="btn-primary room-link"
                   >
                     SOURCE CODE
@@ -30,6 +31,7 @@ const Projects = () => {
                   <a
                     href={item.deployedUrl}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="btn-primary room-link"
                   >
                     site
