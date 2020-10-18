@@ -60,7 +60,7 @@ body {
   height: 100vh;
   width: 100%;
   color: rgb(2, 2, 2);
-  margin-left: 30px;
+  margin-left: 120px;
 }
 .header__section h1 {
   font-size: 35px;
@@ -208,16 +208,10 @@ body {
   background: #23263a;
   padding: 100px 0;
 }
-.about__img {
-  padding: 30px;
-}
-.about__img img {
-  width: 300px;
-  height: 400px;
-}
+
 .about__info {
   color: #fff;
-  margin-left: 30px;
+  margin-left: 120px;
   margin-right: 60px;
 }
 .about__info h1 {
@@ -261,13 +255,12 @@ body {
   color: #1f2235;
   margin: 25px;
   transition: all 0.5s linear;
+  margin-left: 120px;
 }
-.skills__box:hover {
-  background: #ff4a57;
-}
-.col-4 {
+
+/* .col-4 {
   width: 15%;
-}
+} */
 .bgMain {
   background: #1f2235;
 }
@@ -588,9 +581,9 @@ input:checked + label + .content {
   .col-3 {
     width: 100%;
   }
-  .col-4 {
+  /* .col-4 {
     width: 33.33%;
-  }
+  } */
   .col-12 {
     width: 100%;
   }
@@ -632,8 +625,11 @@ input:checked + label + .content {
   .h-650 {
     height: auto;
   }
-  .education {
+  .education,.skills__box,.about__info,.header__content{
     margin-left: 20px;
-    width: 100%;
+   
+  }
+  .education{
+    width:100%
   }
 }
