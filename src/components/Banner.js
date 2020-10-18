@@ -9,7 +9,7 @@ const Banner = () => {
   const [state] = React.useState({
     title: "I'm Mamatha",
     text:
-      "I'm Passinated in developing frontend applications and also intrested in learning new frameworks like React and ReactNative as well as work with WordPress.I also enjoy ui,ux",
+      "I'm Passinated in developing frontend applications and also intrested in learning new frameworks like React and ReactNative as well as working with WordPress.I also enjoy ui,ux",
     image: "/images/mamatha-01.png",
   });
   return (
