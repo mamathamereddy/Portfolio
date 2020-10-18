@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="about" data-section="projects" id="projects">
       <div className="container">
         <div className="common">
-          <h1 className="mainHeaderb">Projects</h1>
+          <h1 className="mainHeader">Projects</h1>
           <div className="commonBorder"></div>
         </div>
         <div className="featured-rooms-center">

@@ -20,7 +20,7 @@ const About = () => {
     <div className="about" data-section="about" id="about">
       <div className="container">
         <div className="common">
-          <h1 className="mainHeaderb">{header.subHeader}</h1>
+          <h1 className="mainHeader">{header.subHeader}</h1>
           {/* <p className="mainContent">{header.text}</p> */}
           <div className="commonBorder"></div>
         </div>

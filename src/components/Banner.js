@@ -1,4 +1,5 @@
 import React from "react"; //change image in this page
+import image from "../images/mamatha-01.png";
 import {
   FaFacebookF,
   FaGithubAlt,
@@ -10,7 +11,6 @@ const Banner = () => {
     title: "I'm Mamatha",
     text:
       "I'm Passinated in developing frontend applications and also intrested in learning new frameworks like React and ReactNative as well as working with WordPress.I also enjoy ui,ux",
-    image: "/images/mamatha-01.png",
   });
   return (
     <header className="header" data-section="home" id="home">
@@ -57,7 +57,7 @@ const Banner = () => {
           </div>
           <div className="col-6">
             <div className="banner__img">
-              <img src={state.image} alt="mamatha pic" />
+              <img src={image} alt="mamatha pic" />
             </div>
           </div>
         </div>
