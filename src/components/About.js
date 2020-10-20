@@ -39,7 +39,7 @@ const About = () => {
                 when i decided to restart my carrer as developer,I want to
                 upgraded myself,so started my journey with HackYourFuture coding
                 school , where I was working on different projects and gained
-                hands-on experience in working with Html,css,JavaScript, React,
+                hands-on experience in working with Html, css, JavaScript, React,
                 NodeJS, ExpressJS, MySQL etc.
               </div>
               <div className="info__contacts">

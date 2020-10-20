@@ -218,17 +218,22 @@ body {
   margin-bottom: 30px;
 }
 .about__info-p1 {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 17px;
+  line-height: 25px;
   margin-bottom: 20px;
+  word-spacing: 1.5px;
 }
 .about__info-p2 {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 17px;
+  line-height: 25px;
+  word-spacing:1.5px;
 }
 
 .info__contacts {
   margin-top: 20px;
+  line-height: 25px;
+  word-spacing: 1.5px;
+  font-size: 17px;
 }
 .info__contacts strong {
   color: #ff4a57;
@@ -291,6 +296,7 @@ body {
   box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   transition: all 0.3s linear;
 }
+
 .room:hover {
   box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
@@ -322,10 +328,17 @@ body {
   font-weight: 300;
   letter-spacing: 3px;
 }
-.room-link {
+.room-linkr{
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 45%;
+  transform: scale(0);
+  transition: all 0.3s linear;
+}
+.room-linkl{
+  position: absolute;
+  top: 30%;
+  left: 45%;
   transform: scale(0);
   transition: all 0.3s linear;
 }
@@ -339,7 +352,10 @@ body {
 .img-container:hover .price-top {
   opacity: 0;
 }
-.img-container:hover .room-link {
+.img-container:hover .room-linkl{
+  transform: translate(-50%, -50%) scale(1);
+}
+.img-container:hover .room-linkr {
   transform: translate(-50%, -50%) scale(1);
 }
 .room-info {
@@ -351,7 +367,7 @@ body {
   letter-spacing: 3px;
 }
 
-.btn-primary {
+.btn-primary{
   display: inline-block;
   text-decoration: none;
   background: #af9a7d;
@@ -359,6 +375,8 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+
 .img-container li {
   display: flex;
   margin: 20px;

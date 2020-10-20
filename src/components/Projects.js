@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectsData from "../data/Projects";
+import { FaLink, FaEye } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -19,22 +20,22 @@ const Projects = () => {
                     <h6>{item.type}</h6>
                     <p>app</p>
                   </div>
+
                   <a
                     href={item.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-primary room-link"
+                    className="btn-primary room-linkl"
                   >
-                    SOURCE CODE
+                    <FaEye/> Source CODE
                   </a>
-
                   <a
                     href={item.deployedUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn-primary room-link"
+                    className="btn-primary room-linkr"
                   >
-                    site
+                   <FaLink/> Deployment
                   </a>
                 </div>
                 <p className="room-info">{item.name}</p>
