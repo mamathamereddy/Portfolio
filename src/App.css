@@ -129,7 +129,7 @@ body {
 /*Banner page end*/
 
 /* Navbar */
-.navbar {
+.navbar{
   position: fixed;
   top: 0;
   left: 0;
@@ -650,4 +650,24 @@ input:checked + label + .content {
   .education{
     width:100%
   }
+}
+
+.footer{
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  background: #1f2235;
+  position: relative;
+}
+
+.footer__text {
+  color: orange;
+  font-size: 1rem;
+  letter-spacing: 1px;
+ 
+}
+.footer p{
+  text-align: center;
+  padding: 40px;
 }
