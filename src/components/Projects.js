@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectsData from "../data/Projects";
-import Slide from "react-reveal/Slide";
+
 
 
 const Projects = () => {
@@ -15,6 +15,7 @@ const Projects = () => {
           {ProjectsData.map((item) => {
             return (
               <article className="room">
+               
                 <div className="img-container">
                 
                   <img src={item.image} alt="rooms" />
@@ -42,6 +43,7 @@ const Projects = () => {
                   
                 </div>
                 <p className="room-info">{item.name}</p>
+                
               </article>
             );
           })}
