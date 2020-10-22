@@ -1,4 +1,5 @@
 import React from "react";
+import Slide from "react-reveal/Slide";
 
 const About = () => {
   const [header] = React.useState({
@@ -17,6 +18,7 @@ const About = () => {
     },
   ]);
   return (
+    
     <div className="about" data-section="about" id="about">
       <div className="container">
         <div className="common">
@@ -27,6 +29,7 @@ const About = () => {
         <div className="row  ">
           <div className="col-12">
             <div className="about__info">
+            <Slide left >
               <h1>Hi There</h1>
               <div className="about__info-p1">
                 I'm Enthusiastic and highly motivated with hands-on experience
@@ -52,11 +55,13 @@ const About = () => {
                   ))}
                 </div>
               </div>
+              </Slide>
             </div>
           </div>
         </div>
       </div>
     </div>
+    
   );
 };
 

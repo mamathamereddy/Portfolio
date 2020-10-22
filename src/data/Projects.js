@@ -1,48 +1,65 @@
-//import pic1 from '../images/mmm.gif'
+import hotel from '../images/hotel.png';
+import weather from '../images/weather.png';
+import meal from '../images/mealsharing.jpg'
+import fastestpresser from '../images/fastestpresser.jpg'
+import project from '../images/project.jpg'
+import github from '../images/github.jpg'
+
+
 
 const projects = [
 	{
 		id: 1,
-		name:"Meal sharing",
-		//  image:pic1,
-		image: 'https://static.onecms.io/wp-content/uploads/sites/24/2018/01/soba_noodle-and-shrimp_bowl_2554701_qfsfe_01_1-2000.jpg',
+		name:"Hotel Booking",
+		image:hotel,
 	    type:"MERN Stack",
         githubUrl:'https://github.com/mamathamereddy/HotelBooking-Client',
-        deployedUrl:"nifty-almeida-c64cbb.netlify.app"
+        deployedUrl:"hotel-bookingapp.netlify.app/"
 	},
+	
 	{
 		id: 2,
-		name:"Meal sharing",
-		image: 'https://static.onecms.io/wp-content/uploads/sites/24/2018/01/soba_noodle-and-shrimp_bowl_2554701_qfsfe_01_1-2000.jpg',
-	    type:"MERN Stack",
-        githubUrl:'https://github.com/mamathamereddy/HotelBooking-Client',
-        deployedUrl:"nifty-almeida-c64cbb.netlify.app"
+		name:"HackYourFutureProject",
+		image: project,
+	    type:"FullStack",
+        githubUrl:'https://github.com/mamathamereddy/FP-class11',
+        deployedUrl:"https://fp-class11.herokuapp.com/"
+		
 	},
 	{
 		id: 3,
-		name:"Meal sharing",
-		image: 'https://static.onecms.io/wp-content/uploads/sites/24/2018/01/soba_noodle-and-shrimp_bowl_2554701_qfsfe_01_1-2000.jpg',
-	    type:"MERN Stack",
-        githubUrl:'https://github.com/mamathamereddy/HotelBooking-Client',
-		deployedUrl:"nifty-almeida-c64cbb.netlify.app"
+		name:"github user searcher",
+		image:github ,
+	    type:"Reactjs",
+        githubUrl:'https://github.com/mamathamereddy/github-user-searcher',
+        deployedUrl:"https://react-github-user-search-app.herokuapp.com/"
 	},
 	{
 		id: 4,
 		name:"Meal sharing",
-		image: 'https://static.onecms.io/wp-content/uploads/sites/24/2018/01/soba_noodle-and-shrimp_bowl_2554701_qfsfe_01_1-2000.jpg',
-	    type:"MERN Stack",
-        githubUrl:'https://github.com/mamathamereddy/HotelBooking-Client',
-        deployedUrl:"nifty-almeida-c64cbb.netlify.app"
+		image: meal,
+	    type:"Node/Express/Mysql",
+        githubUrl:'https://github.com/mamathamereddy/mealsharing',
+		deployedUrl:"https://hyf-meals-sharing.herokuapp.com/"
 	},
 	{
 		id: 5,
-		name:"Meal sharing",
-		image: 'https://static.onecms.io/wp-content/uploads/sites/24/2018/01/soba_noodle-and-shrimp_bowl_2554701_qfsfe_01_1-2000.jpg',
-	    type:"MERN Stack",
-        githubUrl:'https://github.com/mamathamereddy/HotelBooking-Client',
-        deployedUrl:"nifty-almeida-c64cbb.netlify.app"
-		
+		name:"Weather App",
+		image:weather,
+	    type:"JavaScript",
+        githubUrl:'https://github.com/mamathamereddy/weather-app',
+        deployedUrl:"https://mamathamereddy.github.io/weather-app/"
 	},
+	
+	{
+		id: 6,
+		name:"Fastest Presser",
+		image: fastestpresser,
+	    type:"javaScript",
+        githubUrl:'https://github.com/mamathamereddy/fastestPresser',
+        deployedUrl:"https://mamathamereddy.github.io/fastestPresser/"
+	},
+	
 	
 ];
 

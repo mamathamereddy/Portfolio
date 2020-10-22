@@ -8,7 +8,6 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 
-
 function App() {
   return (
     <div>
@@ -16,9 +15,9 @@ function App() {
       <Banner />
       <About />
       <Skills />
-      <Projects/>
+      <Projects />
       <Experience />
-      <Education/>
+      <Education />
     </div>
   );
 }

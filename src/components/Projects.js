@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectsData from "../data/Projects";
-import { FaLink, FaEye } from "react-icons/fa";
+import Slide from "react-reveal/Slide";
+
 
 const Projects = () => {
   return (
@@ -15,6 +16,7 @@ const Projects = () => {
             return (
               <article className="room">
                 <div className="img-container">
+                <Slide right cascade>
                   <img src={item.image} alt="rooms" />
                   <div className="price-top">
                     <h6>{item.type}</h6>
@@ -27,7 +29,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="btn-primary room-linkl"
                   >
-                    <FaEye/> Source CODE
+                     Source CODE
                   </a>
                   <a
                     href={item.deployedUrl}
@@ -35,8 +37,9 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="btn-primary room-linkr"
                   >
-                   <FaLink/> Deployment
+                    Deployment
                   </a>
+                  </Slide>
                 </div>
                 <p className="room-info">{item.name}</p>
               </article>

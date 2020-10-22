@@ -1,5 +1,6 @@
 import React from "react"; //change image in this page
 import image from "../images/mamatha-01.png";
+import Slide from 'react-reveal/Slide';
 import {
   FaFacebookF,
   FaGithubAlt,
@@ -18,7 +19,10 @@ const Banner = () => {
         <div className="row">
           <div className="col-6">
             <div className="header__content">
+            <Slide left >
               <div className="header__section">
+              
+            
                 <h1>{state.title}</h1>
                 <p>{state.text}</p>
                 <ul className="header__ul">
@@ -54,13 +58,18 @@ const Banner = () => {
                   <a href="#projects" className="btn btn-outline">
                     My Projects
                   </a>
+                  
                 </div>
+                
               </div>
+              </Slide>
             </div>
           </div>
           <div className="col-6">
             <div className="banner__img">
+            <Slide right >
               <img src={image} alt="mamatha pic" />
+              </Slide>
             </div>
           </div>
         </div>
