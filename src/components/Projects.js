@@ -26,7 +26,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="btn-primary room-linkl"
                   >
-                     <FaEye/>Source CODE
+                     <FaEye/> CODE
                   </a>
                   <a
                     href={item.deployedUrl}
@@ -34,7 +34,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="btn-primary room-linkr"
                   >
-                   <FaLink/> Deployment
+                   <FaLink/> site
                   </a>
                 </div>
                 <p className="room-info">{item.name}</p>
