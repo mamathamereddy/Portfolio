@@ -1,8 +1,6 @@
 import React from "react";
 import ProjectsData from "../data/Projects";
-
-
-
+import { FaLink, FaEye } from "react-icons/fa";
 const Projects = () => {
   return (
     <div className="about" data-section="projects" id="projects">
@@ -15,9 +13,7 @@ const Projects = () => {
           {ProjectsData.map((item) => {
             return (
               <article className="room">
-               
                 <div className="img-container">
-                
                   <img src={item.image} alt="rooms" />
                   <div className="price-top">
                     <h6>{item.type}</h6>
@@ -30,7 +26,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="btn-primary room-linkl"
                   >
-                     Source CODE
+                     <FaEye/>Source CODE
                   </a>
                   <a
                     href={item.deployedUrl}
@@ -38,12 +34,10 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="btn-primary room-linkr"
                   >
-                    Deployment
+                   <FaLink/> Deployment
                   </a>
-                  
                 </div>
                 <p className="room-info">{item.name}</p>
-                
               </article>
             );
           })}
