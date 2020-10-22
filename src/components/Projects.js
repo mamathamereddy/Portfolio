@@ -16,7 +16,7 @@ const Projects = () => {
             return (
               <article className="room">
                 <div className="img-container">
-                <Slide right cascade>
+                
                   <img src={item.image} alt="rooms" />
                   <div className="price-top">
                     <h6>{item.type}</h6>
@@ -39,7 +39,7 @@ const Projects = () => {
                   >
                     Deployment
                   </a>
-                  </Slide>
+                  
                 </div>
                 <p className="room-info">{item.name}</p>
               </article>
