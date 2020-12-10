@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Experience = () => {
   return (
     <div className="skills" data-section="experience" id="experience">
@@ -16,7 +15,7 @@ const Experience = () => {
                 <span> 6/2020-present</span>
               </h4>
               <p>
-                Ating aps is a software soulution for creating the most gameable
+                Ating aps is a software solution for creating the most gameable
                 way to meet new friends for everyone around the world.
               </p>
               <p className="task">Tasks Performed</p>
@@ -43,6 +42,16 @@ const Experience = () => {
               <h4>
                 Production Specialst @DFD <span> 2011-2017</span>
               </h4>
+              <p className="task">Tasks Performed</p>
+              <ul>
+                <li>
+                  Responsible for production activities based on customers
+                  orders.
+                </li>
+                <li>
+                  Monitor and manage on-going workflow to ensure timely delivery
+                </li>
+              </ul>
             </div>
           </div>
         </div>
