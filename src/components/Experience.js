@@ -12,7 +12,7 @@ const Experience = () => {
             <div class="content">
               <h4>
                 Frontend developer(Intern)@ ating aps{" "}
-                <span> 6/2020-31/12/2020</span>
+                <span> 6/2020-12/2020</span>
               </h4>
               <p>
                 Ating aps is a software solution for creating the most gameable
