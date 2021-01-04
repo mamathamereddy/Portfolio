@@ -9,8 +9,8 @@ const About = () => {
   });
   const [state] = React.useState([
     { id: 1, title: "Name:", text: "Mamatha Mereddy" },
-    { id: 2, title: "Email:", text: "mamathavangala1@gmail.com" },
-    { id: 3, title: "Phone:", text: "+45 42799884" },
+    { id: 2, title: "Email:", text: "mamatha.mereddy@gmail.com" },
+    { id: 3, title: "GitHub:", text: "https://github.com/mamathamereddy" },
     {
       id: 4,
       title: "Linkedin",
@@ -18,7 +18,6 @@ const About = () => {
     },
   ]);
   return (
-    
     <div className="about" data-section="about" id="about">
       <div className="container">
         <div className="common">
@@ -29,39 +28,44 @@ const About = () => {
         <div className="row  ">
           <div className="col-12">
             <div className="about__info">
-            <Slide left >
-              <h1>Hi There</h1>
-              <div className="about__info-p1">
-                I'm Enthusiastic and highly motivated with hands-on experience
-                in creating websites that provide a clean and user-friendly
-                experience . Also, I am highly motivated to learn new
-                technologies in a fast pace, and deepen my knowledge and
-                experience in coding and development
-              </div>
-              <div className="about__info-p2">
-                when i decided to restart my carrer as developer,I want to
-                upgraded myself,so started my journey with HackYourFuture coding
-                school , where I was working on different projects and gained
-                hands-on experience in working with Html, css, JavaScript, React,
-                NodeJS, ExpressJS, MySQL etc.
-              </div>
-              <div className="info__contacts">
-                <div className="row">
-                  {state.map((info) => (
-                    <div className="col-6">
-                      <strong>{info.title}</strong>
-                      <p>{info.text}</p>
-                    </div>
-                  ))}
+              <Slide left>
+                <h1>Hi There</h1>
+                <div className="about__info-p1">
+                  I'm Enthusiastic and highly motivated with hands-on experience
+                  in creating websites that provide a clean and user-friendly
+                  experience . Also, I am highly motivated to learn new
+                  technologies in a fast pace, and deepen my knowledge and
+                  experience in coding and development
                 </div>
-              </div>
+                <div className="about__info-p2">
+                  when i decided to restart my carrer as developer,I want to
+                  upgraded myself,so started my journey with HackYourFuture
+                  coding school , where I was working on different projects and
+                  gained hands-on experience in working with Html, css,
+                  JavaScript, React, NodeJS, ExpressJS, MySQL etc.
+                </div>
+                <div className="about__info-p2">
+                  After graduating from Hackyour Future worked as front-end
+                  developer intern at ATING. where i learned working with
+                  building components from scratch in Reactnative,worked with
+                  React and mongoDb
+                </div>
+                <div className="info__contacts">
+                  <div className="row">
+                    {state.map((info) => (
+                      <div className="col-6">
+                        <strong>{info.title}</strong>
+                        <p>{info.text}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </Slide>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
   );
 };
 
