@@ -129,7 +129,7 @@ body {
 /*Banner page end*/
 
 /* Navbar */
-.navbar{
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -226,7 +226,8 @@ body {
 .about__info-p2 {
   font-size: 17px;
   line-height: 25px;
-  word-spacing:1.5px;
+  word-spacing: 1.5px;
+  margin-bottom: 20px;
 }
 
 .info__contacts {
@@ -328,14 +329,14 @@ body {
   font-weight: 300;
   letter-spacing: 3px;
 }
-.room-linkr{
+.room-linkr {
   position: absolute;
   top: 50%;
   left: 45%;
   transform: scale(0);
   transition: all 0.3s linear;
 }
-.room-linkl{
+.room-linkl {
   position: absolute;
   top: 30%;
   left: 45%;
@@ -352,7 +353,7 @@ body {
 .img-container:hover .price-top {
   opacity: 0;
 }
-.img-container:hover .room-linkl{
+.img-container:hover .room-linkl {
   transform: translate(-50%, -50%) scale(1);
 }
 .img-container:hover .room-linkr {
@@ -367,7 +368,7 @@ body {
   letter-spacing: 3px;
 }
 
-.btn-primary{
+.btn-primary {
   display: inline-block;
   text-decoration: none;
   background: #af9a7d;
@@ -375,7 +376,6 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
-
 
 .img-container li {
   display: flex;
@@ -561,8 +561,6 @@ label {
   text-align: left;
 }
 
-
-
 .content {
   background: #e2e5f6;
   padding: 10px 25px;
@@ -643,16 +641,18 @@ input:checked + label + .content {
   .h-650 {
     height: auto;
   }
-  .education,.skills__box,.about__info,.header__content{
+  .education,
+  .skills__box,
+  .about__info,
+  .header__content {
     margin-left: 20px;
-   
   }
-  .education{
-    width:100%
+  .education {
+    width: 100%;
   }
 }
 
-.footer{
+.footer {
   top: 0;
   left: 0;
   width: 100%;
@@ -665,9 +665,8 @@ input:checked + label + .content {
   color: orange;
   font-size: 1rem;
   letter-spacing: 1px;
- 
 }
-.footer p{
+.footer p {
   text-align: center;
   padding: 40px;
 }
