@@ -229,6 +229,10 @@ body {
   word-spacing: 1.5px;
   margin-bottom: 20px;
 }
+a {
+  text-decoration: none;
+  color: #008cba;
+}
 
 .info__contacts {
   margin-top: 20px;
