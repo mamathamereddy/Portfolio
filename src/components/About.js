@@ -46,9 +46,12 @@ const About = () => {
                 </div>
                 <div className="about__info-p2">
                   After graduating from Hackyour Future worked as front-end
-                  developer intern at ATING. where i learned working with
-                  building components from scratch in Reactnative,worked with
-                  React and mongoDb
+                  developer intern at{" "}
+                  <a target="_blank" href="https://www.ating.app//">
+                    "Ating aps"
+                  </a>
+                  . where i learned working with building components from
+                  scratch in Reactnative,worked with React and mongoDb
                 </div>
                 <div className="info__contacts">
                   <div className="row">
