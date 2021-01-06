@@ -229,7 +229,7 @@ body {
   word-spacing: 1.5px;
   margin-bottom: 20px;
 }
-a {
+.about__info-p2 a {
   text-decoration: none;
   color: #008cba;
 }
