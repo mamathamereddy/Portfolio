@@ -39,16 +39,21 @@ const About = () => {
                 </div>
                 <div className="about__info-p2">
                   when i decided to restart my carrer as developer,I want to
-                  upgraded myself,so started my journey with HackYourFuture
-                  coding school , where I was working on different projects and
-                  gained hands-on experience in working with Html, css,
-                  JavaScript, React, NodeJS, ExpressJS, MySQL etc.
+                  upgraded myself,so started my journey with
+                  <a target="_blank" href="https://www.hackyourfuture.dk/">
+                    {" "}
+                    HackYourFuture coding school
+                  </a>
+                  , where I was working on different projects and gained
+                  hands-on experience in working with Html, css, JavaScript,
+                  React, NodeJS, ExpressJS, MySQL etc.
                 </div>
                 <div className="about__info-p2">
                   After graduating from Hackyour Future worked as front-end
-                  developer intern at{" "}
+                  developer intern at
                   <a target="_blank" href="https://www.ating.app//">
-                    "Ating aps"
+                    {" "}
+                    Ating aps
                   </a>
                   . where i learned working with building components from
                   scratch in Reactnative,worked with React and mongoDb
