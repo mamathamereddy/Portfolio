@@ -40,7 +40,11 @@ const About = () => {
                 <div className="about__info-p2">
                   when i decided to restart my carrer as developer,I want to
                   upgraded myself,so started my journey with
-                  <a target="_blank" href="https://www.hackyourfuture.dk/">
+                  <a
+                    target="_blank"
+                    href="https://www.hackyourfuture.dk/"
+                    rel="noopener noreferrer"
+                  >
                     {" "}
                     HackYourFuture coding school
                   </a>
@@ -51,7 +55,11 @@ const About = () => {
                 <div className="about__info-p2">
                   After graduating from Hackyour Future worked as front-end
                   developer intern at
-                  <a target="_blank" href="https://www.ating.app//">
+                  <a
+                    target="_blank"
+                    href="https://www.ating.app//"
+                    rel="noopener noreferrer"
+                  >
                     {" "}
                     Ating aps
                   </a>
