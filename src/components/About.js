@@ -61,10 +61,15 @@ const About = () => {
                     rel="noopener noreferrer"
                   >
                     {" "}
-                    Ating aps
+                    Ating aps.
                   </a>
-                  . where i learned working with building components from
-                  scratch in Reactnative,worked with React and mongoDb
+                  {/* . where i learned working with Building web site from scratch
+                  with React and Reactnative components. working on resposive
+                  design,Focus on personal projects to try technologies like
+                  test driven development, Rest APIs, Redux as part of learning
+                  new skills. */}
+                  where i learned working with Reactnative and working with
+                  Mongodb. Understanding the clients requirements.
                 </div>
                 <div className="info__contacts">
                   <div className="row">

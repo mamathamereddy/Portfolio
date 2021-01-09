@@ -20,9 +20,17 @@ const Experience = () => {
               </p>
               <p className="task">Tasks Performed</p>
               <ul>
-                <li>Developed the frontend pages</li>
-                <li>fecting and displaying data</li>
-                <li>worked with reat and React Native</li>
+                <li>
+                  {" "}
+                  Building web site from scratch with React and Reactnative
+                  components.
+                </li>
+                <li>working on resposive design</li>
+                <li>
+                  Focus on personal projects to try technologies like test
+                  driven development, Rest APIs, Redux as part of learning new
+                  skills.
+                </li>
               </ul>
             </div>
           </div>
