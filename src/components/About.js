@@ -68,8 +68,8 @@ const About = () => {
                   design,Focus on personal projects to try technologies like
                   test driven development, Rest APIs, Redux as part of learning
                   new skills. */}
-                  where i learned working with Reactnative and working with
-                  Mongodb. Understanding the clients requirements.
+                  where i learned working with React,Reactnative and working
+                  with MongoDB.
                 </div>
                 <div className="info__contacts">
                   <div className="row">
