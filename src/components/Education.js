@@ -18,8 +18,15 @@ const Education = () => {
               </p>
 
               <p>
-                The curriculum includes
-                HTML/CSS/Git/JavaScript/NodeJS+ExpressJS/React
+                Web developer course education including:
+                <ul>
+                  <li> - HTML/CSS</li>
+                  <li> - JavaScript</li>
+                  <li> - Node.js</li>
+                  <li> - Databases</li>
+                  <li> - REACT</li>
+                  <li> - Final project</li>
+                </ul>
               </p>
             </div>
 
