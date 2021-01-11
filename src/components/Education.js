@@ -18,7 +18,7 @@ const Education = () => {
               </p>
 
               <p>
-                Web developer course education including:
+                Course education including:
                 <ul>
                   <li> HTML/CSS</li>
                   <li> JavaScript</li>
