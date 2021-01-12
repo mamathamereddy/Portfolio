@@ -29,7 +29,7 @@ const About = () => {
           <div className="col-12">
             <div className="about__info">
               <Slide left>
-                <h1>Hi There</h1>
+                <h1>Hi...</h1>
                 <div className="about__info-p1">
                   I'm Enthusiastic and highly motivated with hands-on experience
                   in creating websites that provide a clean and user-friendly
