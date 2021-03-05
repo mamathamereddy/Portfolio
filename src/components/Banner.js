@@ -11,7 +11,7 @@ const Banner = () => {
   const [state] = React.useState({
     title: "I'm Mamatha",
     text:
-      "I'm Passionate in developing user friendly and responsive frontend applications and also intrested in learning new frameworks and technologies in a fast pace",
+      "I'm Passionate in developing user friendly and responsive frontend applications also intrested in learning new frameworks and technologies in a fast pace",
   });
   return (
     <header className="header" data-section="home" id="home">
