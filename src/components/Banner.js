@@ -1,6 +1,6 @@
 import React from "react"; //change image in this page
 import image from "../images/mamatha-01.png";
-import Slide from 'react-reveal/Slide';
+import Slide from "react-reveal/Slide";
 import {
   FaFacebookF,
   FaGithubAlt,
@@ -11,7 +11,7 @@ const Banner = () => {
   const [state] = React.useState({
     title: "I'm Mamatha",
     text:
-      "I'm Passinated in developing frontend applications and also intrested in learning new frameworks like React and ReactNative as well as working with WordPress.I also enjoy ui,ux",
+      "I'm Passionate in developing user friendly and responsive frontend applications and also intrested in learning new frameworks and technologies in a fast pace",
   });
   return (
     <header className="header" data-section="home" id="home">
@@ -19,56 +19,61 @@ const Banner = () => {
         <div className="row">
           <div className="col-6">
             <div className="header__content">
-            <Slide left >
-              <div className="header__section">
-              
-            
-                <h1>{state.title}</h1>
-                <p>{state.text}</p>
-                <ul className="header__ul">
-                  <a href="https://www.facebook.com/mamatha.mereddy">
-                    <li>
-                      <FaFacebookF className="headerIcon" />
-                    </li>
-                  </a>
+              <Slide left>
+                <div className="header__section">
+                  <h1>{state.title}</h1>
+                  <p>{state.text}</p>
+                  <ul className="header__ul">
+                    <a href="https://www.facebook.com/mamatha.mereddy">
+                      <li>
+                        <FaFacebookF className="headerIcon" />
+                      </li>
+                    </a>
 
-                  <a href="https://github.com/mamathamereddy" target="_blank"
-                    rel="noopener noreferrer">
-                    <li>
-                      <FaGithubAlt className="headerIcon" />
-                    </li>
-                  </a>
+                    <a
+                      href="https://github.com/mamathamereddy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <li>
+                        <FaGithubAlt className="headerIcon" />
+                      </li>
+                    </a>
 
-                  <a href="https://www.linkedin.com/in/mereddy-mamatha/" target="_blank"
-                    rel="noopener noreferrer">
-                    <li>
-                      <FaLinkedinIn className="headerIcon" />
-                    </li>
-                  </a>
+                    <a
+                      href="https://www.linkedin.com/in/mereddy-mamatha/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <li>
+                        <FaLinkedinIn className="headerIcon" />
+                      </li>
+                    </a>
 
-                  <a href="https://www.instagram.com/mamatha.mereddy/" target="_blank"
-                    rel="noopener noreferrer">
-                    <li>
-                      <FaInstagram className="headerIcon" />
-                    </li>
-                  </a>
-                </ul>
+                    <a
+                      href="https://www.instagram.com/mamatha.mereddy/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <li>
+                        <FaInstagram className="headerIcon" />
+                      </li>
+                    </a>
+                  </ul>
 
-                <div className="header__buttons">
-                  <a href="#projects" className="btn btn-outline">
-                    My Projects
-                  </a>
-                  
+                  <div className="header__buttons">
+                    <a href="#projects" className="btn btn-outline">
+                      My Projects
+                    </a>
+                  </div>
                 </div>
-                
-              </div>
               </Slide>
             </div>
           </div>
           <div className="col-6">
             <div className="banner__img">
-            <Slide right >
-              <img src={image} alt="mamatha pic" />
+              <Slide right>
+                <img src={image} alt="mamatha pic" />
               </Slide>
             </div>
           </div>
