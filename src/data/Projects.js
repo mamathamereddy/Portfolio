@@ -17,11 +17,11 @@ const projects = [
 
   {
     id: 2,
-    name: "HackYourFutureProject",
-    image: project,
-    type: "FullStack",
-    githubUrl: "https://github.com/mamathamereddy/FP-class11",
-    deployedUrl: "https://fp-class11.herokuapp.com/",
+    name: "Fastest Presser",
+    image: fastestpresser,
+    type: "JavaScript",
+    githubUrl: "https://github.com/mamathamereddy/fastestPresser",
+    deployedUrl: "https://mamathamereddy.github.io/fastestPresser/",
   },
   {
     id: 3,
@@ -50,11 +50,11 @@ const projects = [
 
   {
     id: 6,
-    name: "Fastest Presser",
-    image: fastestpresser,
-    type: "javaScript",
-    githubUrl: "https://github.com/mamathamereddy/fastestPresser",
-    deployedUrl: "https://mamathamereddy.github.io/fastestPresser/",
+    name: "HackYourFutureProject",
+    image: project,
+    type: "FullStack",
+    githubUrl: "https://github.com/mamathamereddy/FP-class11",
+    deployedUrl: "https://fp-class11.herokuapp.com/",
   },
 ];
 

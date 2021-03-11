@@ -21,15 +21,25 @@ const Experience = () => {
               <p className="task">Tasks Performed</p>
               <ul>
                 <li>
-                  {" "}
-                  Building web site from scratch with React and Reactnative
-                  components.
+                  Developed code using JSX,CSS3,React hooks to enhance
+                  functionality and user experience on web pages.
                 </li>
-                <li>working on resposive design</li>
                 <li>
-                  Focus on personal projects to try technologies like test
-                  driven development, Rest APIs, Redux as part of learning new
-                  skills.
+                  Developed ReactNative components from scratch along with other
+                  Developers.
+                </li>
+                <li>
+                  Integrated the application with APIs to send and fetch the
+                  data and populate on the pages developed.
+                </li>
+                <li>
+                  Participated on weekly team meetings to discuss current and
+                  future strategies on how to produce efficient work.
+                </li>
+                <li>
+                  Involved in system development related tasks, including User
+                  Interface, User Experience, SCRUM agile development processes
+                  (planning & review),social media marketing content and ideas.
                 </li>
               </ul>
             </div>
@@ -39,10 +49,23 @@ const Experience = () => {
               <h4>
                 Tolker @Tolk Denmark <span> 2018-2020</span>
               </h4>
-              <p>
-                Translating for non danish people from danish to English/Telugu
-                and ViceVersa
-              </p>
+              <p className="task">Tasks Performed</p>
+              <ul>
+                <li>
+                  Listen to one person in one language, understanding the
+                  meaning and context of that conversation, and convert it into
+                  a second language to the other person, making sure to preserve
+                  the original meaning
+                </li>
+                <li>
+                  Translate to clients through online, video, or directly{" "}
+                </li>
+                <li>
+                  Consult with subject matter experts and other colleagues in
+                  order to understand specialised concepts and translate them
+                  appropriately
+                </li>
+              </ul>
             </div>
           </div>
           <div class="containerExp left">
