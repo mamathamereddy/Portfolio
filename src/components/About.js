@@ -63,13 +63,21 @@ const About = () => {
                     {" "}
                     Ating aps.
                   </a>
-                  {/* . where i learned working with Building web site from scratch
-                  with React and Reactnative components. working on resposive
-                  design,Focus on personal projects to try technologies like
-                  test driven development, Rest APIs, Redux as part of learning
-                  new skills. */}
                   where i learned working with React,Reactnative and working
                   with MongoDB.
+                </div>
+                <div className="about__info-p2">
+                  Presently working as ReactNative developer intren at
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/company/thejoynapp/about/"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    JOYN{" "}
+                  </a>
+                  where i got the confidence of working with reactNative and
+                  working with firebase-firestore
                 </div>
                 <div className="info__contacts">
                   <div className="row">
