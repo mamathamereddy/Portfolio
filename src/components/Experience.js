@@ -8,6 +8,41 @@ const Experience = () => {
         <div className="commonBorder"></div>
 
         <div class="timeline">
+          <div class="containerExp right">
+            <div class="content">
+              <h4>
+                ReactNative Developer(Intern)@JoyN <span> 05/2021-present</span>
+              </h4>
+              <p>
+                Ating aps is a software solution for creating the most gameable
+                way to meet new friends for everyone around the world.
+              </p>
+              <p className="task">Tasks Performed</p>
+              <ul>
+                <li>
+                  Developed code using JSX,CSS3,React hooks to enhance
+                  functionality and user experience on web pages.
+                </li>
+                <li>
+                  Developed ReactNative components from scratch along with other
+                  Developers.
+                </li>
+                <li>
+                  Integrated the application with APIs to send and fetch the
+                  data and populate on the pages developed.
+                </li>
+                <li>
+                  Participated on weekly team meetings to discuss current and
+                  future strategies on how to produce efficient work.
+                </li>
+                <li>
+                  Involved in system development related tasks, including User
+                  Interface, User Experience, SCRUM agile development processes
+                  (planning & review),social media marketing content and ideas.
+                </li>
+              </ul>
+            </div>
+          </div>
           <div class="containerExp left">
             <div class="content">
               <h4>
