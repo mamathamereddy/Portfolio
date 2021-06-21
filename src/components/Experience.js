@@ -23,10 +23,14 @@ const Experience = () => {
                 <li>
                   Constantly improving functionality of the product using
                   ReactJs(Hooks),Javascript(JSX) and Developing new user-facing
-                  features using React Native Optimising app components and
-                  improving the product’s features and performance.
+                  features using React Native
+                </li>
+                <li>
+                  Optimising app components and improving the product’s features
+                  and performance.
                 </li>
                 <li>Gained experience in working with FireBase Firestore.</li>
+
                 <li>
                   Participated in daily team meetings to discuss current and
                   future strategies on how to produce efficient work.
@@ -84,9 +88,9 @@ const Experience = () => {
               <p className="task">Tasks Performed</p>
               <ul>
                 <li>
-                  Listen to one person in one language, understanding the
+                  Listen to one client in one language, understanding the
                   meaning and context of that conversation, and convert it into
-                  a second language to the other person, making sure to preserve
+                  a second language to the other client, making sure to preserve
                   the original meaning
                 </li>
                 <li>

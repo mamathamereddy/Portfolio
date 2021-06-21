@@ -10,8 +10,26 @@ const Education = () => {
 
           <div className="education">
             <input type="checkbox" id="title1" checked />
-            <label for="title1">Full Stack Development</label>
+            <label for="title1">UX design</label>
 
+            <div class="content">
+              <p>
+                Redi school,copenhagen<span> 2021-2021</span>
+              </p>
+              <p>
+                <b>Project:"wireframing for Østerland"</b>
+
+                <ul>
+                  <li>Generative and Evaluative research.</li>
+                  <li>User Personas and Business Requirements</li>
+                  <li>Iterative Wire-framing and prototyping</li>
+                  <li>Usability Testing of the wireframe</li>
+                </ul>
+              </p>
+            </div>
+
+            <input type="checkbox" id="title2" checked />
+            <label for="title2">FullStack development</label>
             <div class="content">
               <p>
                 <b>Hack Your Future, Copenhagen</b>
