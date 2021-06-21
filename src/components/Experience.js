@@ -14,27 +14,24 @@ const Experience = () => {
                 ReactNative Developer(Intern)@JoyN <span> 05/2021-present</span>
               </h4>
               <p>
-                Ating aps is a software solution for creating the most gameable
-                way to meet new friends for everyone around the world.
+                JOYN is a social network for people around the world. Connect
+                better with your friends, organize your free time efficiently
+                together, and make real memories together
               </p>
               <p className="task">Tasks Performed</p>
               <ul>
                 <li>
-                  Developed code using JSX,CSS3,React hooks to enhance
-                  functionality and user experience on web pages.
+                  Constantly improving functionality of the product using
+                  ReactJs(Hooks),Javascript(JSX) and Developing new user-facing
+                  features using React Native Optimising app components and
+                  improving the product’s features and performance.
                 </li>
+                <li>Gained experience in working with FireBase Firestore.</li>
                 <li>
-                  Developed ReactNative components from scratch along with other
-                  Developers.
-                </li>
-                <li>
-                  Integrated the application with APIs to send and fetch the
-                  data and populate on the pages developed.
-                </li>
-                <li>
-                  Participated on weekly team meetings to discuss current and
+                  Participated in daily team meetings to discuss current and
                   future strategies on how to produce efficient work.
                 </li>
+
                 <li>
                   Involved in system development related tasks, including User
                   Interface, User Experience, SCRUM agile development processes
