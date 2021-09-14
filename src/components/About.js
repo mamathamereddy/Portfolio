@@ -67,7 +67,7 @@ const About = () => {
                   with MongoDB.
                 </div>
                 <div className="about__info-p2">
-                  i also worked as ReactNative developer intern at
+                  I also worked as ReactNative developer intern at
                   <a
                     target="_blank"
                     href="https://www.linkedin.com/company/thejoynapp/about/"
