@@ -67,7 +67,7 @@ const About = () => {
                   with MongoDB.
                 </div>
                 <div className="about__info-p2">
-                  Presently working as ReactNative developer intren at
+                  i also worked as ReactNative developer intern at
                   <a
                     target="_blank"
                     href="https://www.linkedin.com/company/thejoynapp/about/"
@@ -76,7 +76,7 @@ const About = () => {
                     {" "}
                     JOYN{" "}
                   </a>
-                  where i got the confidence of working with reactNative and
+                  where i got the confidence of working with ReactNative and
                   working with firebase-firestore
                 </div>
                 <div className="info__contacts">
