@@ -11,7 +11,7 @@ const Experience = () => {
           <div class="containerExp right">
             <div class="content">
               <h4>
-                ReactNative Developer(Intern)@JoyN <span> 05/2021-07/2021</span>
+                ReactNative Developer(Intern)@JoyN <span> 05/2021-08/2021</span>
               </h4>
               <p>
                 JOYN is a social network for people around the world. Connect
