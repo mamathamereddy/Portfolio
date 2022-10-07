@@ -1,12 +1,7 @@
 import React from "react"; //change image in this page
 import image from "../images/mamatha-01.png";
 import Slide from "react-reveal/Slide";
-import {
-  FaFacebookF,
-  FaGithubAlt,
-  FaLinkedinIn,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
 const Banner = () => {
   const [state] = React.useState({
     title: "I'm Mamatha",
