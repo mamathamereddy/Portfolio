@@ -8,6 +8,42 @@ const Experience = () => {
         <div className="commonBorder"></div>
 
         <div class="timeline">
+          <div class="containerExp left">
+            <div class="content">
+              <h4>
+                ReactNative Developer @ Fuelvision <span> 8/2021-09/2022</span>
+              </h4>
+              <p>
+                Ating aps is a software solution for creating the most gameable
+                way to meet new friends for everyone around the world.
+              </p>
+              <p className="task">Tasks Performed</p>
+              <ul>
+                <li>
+                  Developing first product version from wireframes to prototype
+                  used for a pre-seed fundraise of DKK 4 mio.
+                </li>
+                <li>
+                  Collaborated with other developers for constantly improving
+                  functionality of the product using Javascript ,React Native in
+                  developing new user-facing features in a way that is
+                  consistent with existing codebase conventions.
+                </li>
+                <li>
+                  Gained experience in working with TypeScript & Native Base.
+                </li>
+                <li>
+                  {" "}
+                  Monitor and process pull requests for production deployments.
+                </li>
+                <li>Collaborated with designers on UI/UX design decisions</li>
+                <li>
+                  Participated on an agile product & software development cycle
+                  based on a 6 weeks release and iteration.
+                </li>
+              </ul>
+            </div>
+          </div>
           <div class="containerExp right">
             <div class="content">
               <h4>
@@ -47,7 +83,7 @@ const Experience = () => {
           <div class="containerExp left">
             <div class="content">
               <h4>
-                Frontend developer(Intern)@ ating aps{" "}
+                Frontend Developer(Intern)@ ating aps{" "}
                 <span> 6/2020-12/2020</span>
               </h4>
               <p>

@@ -10,8 +10,8 @@ import {
 const Banner = () => {
   const [state] = React.useState({
     title: "I'm Mamatha",
-    text:
-      "Passionate in developing user friendly and responsive frontend applications while being eager obtain a responsible and challenging Front-end Developer position . where I can contribute my skills.Interested in learning new frameworks and technologies in a fast pace.",
+    text: "Passionate and having experience in building the webapplications from scratch while being Interested in learning new frameworks and technologies in a fast pace.",
+    // "Passionate in developing user friendly and responsive frontend applications while being eager obtain a responsible and challenging Front-end Developer position . where I can contribute my skills.Interested in learning new frameworks and technologies in a fast pace.",
   });
   return (
     <header className="header" data-section="home" id="home">
@@ -24,12 +24,6 @@ const Banner = () => {
                   <h1>{state.title}</h1>
                   <p>{state.text}</p>
                   <ul className="header__ul">
-                    <a href="https://www.facebook.com/mamatha.mereddy">
-                      <li>
-                        <FaFacebookF className="headerIcon" />
-                      </li>
-                    </a>
-
                     <a
                       href="https://github.com/mamathamereddy"
                       target="_blank"
@@ -47,16 +41,6 @@ const Banner = () => {
                     >
                       <li>
                         <FaLinkedinIn className="headerIcon" />
-                      </li>
-                    </a>
-
-                    <a
-                      href="https://www.instagram.com/mamatha.mereddy/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <li>
-                        <FaInstagram className="headerIcon" />
                       </li>
                     </a>
                   </ul>
