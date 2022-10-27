@@ -14,8 +14,9 @@ const Experience = () => {
                 ReactNative Developer @ Fuelvision <span> 8/2021-09/2022</span>
               </h4>
               <p>
-                Ating aps is a software solution for creating the most gameable
-                way to meet new friends for everyone around the world.
+                Assisting airlines to decrease their aggregate carbon footprint,
+                by shaping future pilot behaviour and narrowing the gap between
+                operational and financial planning.
               </p>
               <p className="task">Tasks Performed</p>
               <ul>
