@@ -14,7 +14,7 @@ const Experience = () => {
                 ReactNative Developer @ Fuelvision <span> 8/2021-09/2022</span>
               </h4>
               <p>
-                Assisting piolets/airlines to decrease their aggregate carbon
+                Assisting pilots/airlines to decrease their aggregate carbon
                 footprint, by shaping future pilot behaviour and narrowing the
                 gap between operational and financial planning.
               </p>
