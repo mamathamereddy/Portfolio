@@ -7,7 +7,7 @@ import About from "./components/About";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
-import Footer from './components/Footer'
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,11 +15,13 @@ function App() {
       <Nav />
       <Banner />
       <About />
-      <Skills />
-      <Projects />
+
       <Experience />
+
+      <Projects />
       <Education />
-      <Footer/>
+      <Skills />
+      <Footer />
     </div>
   );
 }

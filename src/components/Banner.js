@@ -4,8 +4,9 @@ import Slide from "react-reveal/Slide";
 import { FaGithubAlt, FaLinkedinIn } from "react-icons/fa";
 const Banner = () => {
   const [state] = React.useState({
+    heading: "Hi...",
     title: "I'm Mamatha",
-    text: "Passionate and having experience in building the webapplications from scratch while being Interested in learning new frameworks and technologies in a fast pace.",
+    text: "Passionate and having experience in building the web/mobile applications from scratch while being Interested in learning new frameworks and technologies in a fast pace.Having an eye  for UI/UX and Backend.",
     // "Passionate in developing user friendly and responsive frontend applications while being eager obtain a responsible and challenging Front-end Developer position . where I can contribute my skills.Interested in learning new frameworks and technologies in a fast pace.",
   });
   return (
@@ -16,6 +17,8 @@ const Banner = () => {
             <div className="header__content">
               <Slide left>
                 <div className="header__section">
+                  <h1>{state.heading}</h1>
+
                   <h1>{state.title}</h1>
                   <p>{state.text}</p>
                   <ul className="header__ul">

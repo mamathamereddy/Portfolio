@@ -29,7 +29,6 @@ const About = () => {
           <div className="col-12">
             <div className="about__info">
               <Slide left>
-                <h1>Hi...</h1>
                 <div className="about__info-p1">
                   I'm Enthusiastic and highly motivated with hands-on experience
                   in creating websites that provide a clean and user-friendly
@@ -96,16 +95,16 @@ const About = () => {
                   JavaScript,React,ReactNative and also gained some experience
                   in working with TypeScript.
                 </div>
-                <div className="info__contacts">
+                {/* <div className="info__contacts">
                   <div className="row">
                     {state.map((info) => (
                       <div className="col-6">
                         <strong>{info.title}</strong>
                         <p>{info.text}</p>
-                      </div>
+                      </div> 
                     ))}
                   </div>
-                </div>
+                    </div>*/}
               </Slide>
             </div>
           </div>
