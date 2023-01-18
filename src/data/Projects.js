@@ -1,8 +1,8 @@
-import hotel from "../images/hotel.png";
+//import hotel from "../images/hotel.png";
 import weather from "../images/weather.png";
-import meal from "../images/mealsharing.jpg";
+//import meal from "../images/mealsharing.jpg";
 import fastestpresser from "../images/fastestpresser.jpg";
-import project from "../images/project.jpg";
+//import project from "../images/project.jpg";
 import github from "../images/github.jpg";
 
 const projects = [
