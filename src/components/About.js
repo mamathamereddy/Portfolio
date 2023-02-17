@@ -38,7 +38,7 @@ const About = () => {
                 </div>
                 <div className="about__info-p2">
                   when i decided to restart my carrer as developer,I want to
-                  upgraded myself,so started my journey with
+                  upgraded myself,I started my journey as developer in
                   <a
                     target="_blank"
                     href="https://www.hackyourfuture.dk/"
@@ -62,8 +62,8 @@ const About = () => {
                     {" "}
                     Ating aps.
                   </a>
-                  where i learned working with React,Reactnative and working
-                  with MongoDB.
+                  where i gained experince of working with React,Reactnative and
+                  MongoDB.
                 </div>
                 <div className="about__info-p2">
                   I joined

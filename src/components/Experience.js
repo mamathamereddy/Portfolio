@@ -6,7 +6,6 @@ const Experience = () => {
       <div className="container">
         <h1 className="headerExp">Experience</h1>
         <div className="commonBorder"></div>
-
         <div class="timeline">
           <div class="containerExp left">
             <div class="content">
@@ -45,6 +44,7 @@ const Experience = () => {
               </ul>
             </div>
           </div>
+
           <div class="containerExp right">
             <div class="content">
               <h4>
