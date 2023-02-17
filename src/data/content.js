@@ -1,13 +1,13 @@
 export const accordionData = [
   {
-    title: "UI/UX --- Redi school,copenhagen 2021-2021",
+    title: "UI/UX --- Redi school,copenhagen, 2021-2021",
     project: "Project: wireframing for company called Østerland",
     content: `12 week intensive course in user research,and put ourself into the users'
               mindset and design online platforms that provide meaningful experiences
               to the users,taking aspects of design, usability and functions into account.`,
   },
   {
-    title: "FullStack Development --- Hack Your Future, Copenhagen 2019-2021",
+    title: "FullStack Development --- Hack Your Future, Copenhagen, 2019-2020",
     project:
       "Project:Developing Dashbord web-application for company (seasony.dk)which is a startup specializing in vertical farming with robotics.",
     content: `Dashbord web-application shows different batch/crop details
@@ -21,7 +21,7 @@ export const accordionData = [
   },
   {
     title:
-      "Masters in Computer Applications---Osmanina university,India 2004-2007",
+      "Masters in Computer Applications---Osmanina university,India, 2004-2007",
     project: "Project : TechnoTask Management",
     content: `Techno Task Management is a webbased applicaton where in
                      employees spans over in different departments.This application

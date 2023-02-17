@@ -1,4 +1,46 @@
 import React, { useState } from "react";
+import { accordionData } from "../data/content";
+const Education = () => {
+  return (
+    <div className="about" data-section="education" id="education">
+      <div className="container">
+        <div className="commone">
+          <h1 className="mainHeader">Education</h1>
+          <div className="commonBorder"></div>
+          <div className="container">
+            <div className="accordion">
+              {accordionData.map(({ title, content, project }) => (
+                <Accordion title={title} content={content} project={project} />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Accordion = ({ title, content, project }) => {
+  const [isActive, setIsActive] = useState(false);
+
+  return (
+    <div className="accordion-item">
+      <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
+        <div>{title}</div>
+        <div>{isActive ? "-" : "+"}</div>
+      </div>
+      {isActive && (
+        <div className="accordion-content">
+          {project}
+
+          <div className="accordion-content">{content}</div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Education;
 
 // const Education = () => {
 //   return (
@@ -134,46 +176,3 @@ import React, { useState } from "react";
 // };
 
 // export default Education;
-
-import { accordionData } from "../data/content";
-const Education = () => {
-  return (
-    <div className="about" data-section="education" id="education">
-      <div className="container">
-        <div className="commone">
-          <h1 className="mainHeader">Education</h1>
-          <div className="commonBorder"></div>
-          <div className="container">
-            <div className="accordion">
-              {accordionData.map(({ title, content, project }) => (
-                <Accordion title={title} content={content} project={project} />
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-const Accordion = ({ title, content, project }) => {
-  const [isActive, setIsActive] = useState(false);
-
-  return (
-    <div className="accordion-item">
-      <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
-        <div>{title}</div>
-        <div>{isActive ? "-" : "+"}</div>
-      </div>
-      {isActive && (
-        <div className="accordion-content">
-          {project}
-
-          <div className="accordion-content">{content}</div>
-        </div>
-      )}
-    </div>
-  );
-};
-
-export default Education;
