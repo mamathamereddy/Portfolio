@@ -4,23 +4,24 @@ import weather from "../images/weather.png";
 import fastestpresser from "../images/fastestpresser.jpg";
 //import project from "../images/project.jpg";
 import github from "../images/github.jpg";
+import resume from "../images/resume.jpg";
 
 const projects = [
   {
     id: 1,
+    name: "Resume",
+    image: resume,
+    type: "Html, Css",
+    githubUrl: "https://github.com/mamathamereddy/resume-",
+    deployedUrl: "https://mamatha-resume.netlify.app",
+  },
+  {
+    id: 2,
     name: "Fastest Presser",
     image: fastestpresser,
     type: "JavaScript",
     githubUrl: "https://github.com/mamathamereddy/fastestPresser",
     deployedUrl: "https://mamathamereddy.github.io/fastestPresser/",
-  },
-  {
-    id: 2,
-    name: "github user searcher",
-    image: github,
-    type: "Reactjs",
-    githubUrl: "https://github.com/mamathamereddy/github-user-searcher",
-    deployedUrl: "https://user-searcher-github.netlify.app",
   },
   {
     id: 3,
@@ -30,6 +31,15 @@ const projects = [
     githubUrl: "https://github.com/mamathamereddy/weather-app",
     deployedUrl: "https://mamathamereddy.github.io/weather-app/",
   },
+  {
+    id: 4,
+    name: "github user searcher",
+    image: github,
+    type: "Reactjs",
+    githubUrl: "https://github.com/mamathamereddy/github-user-searcher",
+    deployedUrl: "https://user-searcher-github.netlify.app",
+  },
+
   // {
   //   id: 4,
   //   name: "Hotel Booking",
