@@ -137,7 +137,6 @@ import React, { useState } from "react";
 
 import { accordionData } from "../data/content";
 const Education = () => {
-  const [isActive, setIsActive] = useState(false);
   return (
     <div className="about" data-section="education" id="education">
       <div className="container">
