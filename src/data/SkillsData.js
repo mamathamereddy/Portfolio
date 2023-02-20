@@ -9,7 +9,7 @@ const skills = [
   {
     id: 2,
     heading: "Web development",
-    text: "I have experience building websites using HTML, CSS,JavaScript, React, WordPress",
+    text: "I have experience building websites using HTML, CSS,JavaScript, php, WordPress",
     imageUrl:
       "https://icons.veryicon.com/png/o/internet--web/web-design-and-development/web-design-and-development.png",
   },
