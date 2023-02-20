@@ -6,12 +6,13 @@ import fastestpresser from "../images/fastestpresser.jpg";
 import github from "../images/github.jpg";
 import resume from "../images/resume.jpg";
 import giphy from "../images/giphy.jpg";
+import wordpress from "../images/wordpress.jpg";
 
 const projects = [
   {
     id: 1,
     name: "Charlets app",
-    image: resume,
+    image: wordpress,
     type: "wordpress",
     githubUrl: "https://github.com/mamathamereddy/charlets-app-",
     deployedUrl:
