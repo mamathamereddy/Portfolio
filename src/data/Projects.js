@@ -5,10 +5,20 @@ import fastestpresser from "../images/fastestpresser.jpg";
 //import project from "../images/project.jpg";
 import github from "../images/github.jpg";
 import resume from "../images/resume.jpg";
+import giphy from "../images/giphy.jpg";
 
 const projects = [
   {
     id: 1,
+    name: "Charlets app",
+    image: resume,
+    type: "wordpress",
+    githubUrl: "https://github.com/mamathamereddy/charlets-app-",
+    deployedUrl:
+      "http://dev-chalets-and-caviar-luxury-chalets.pantheonsite.io/",
+  },
+  {
+    id: 2,
     name: "Resume",
     image: resume,
     type: "Html, Css",
@@ -16,7 +26,7 @@ const projects = [
     deployedUrl: "https://mamatha-resume.netlify.app",
   },
   {
-    id: 2,
+    id: 3,
     name: "Fastest Presser",
     image: fastestpresser,
     type: "JavaScript",
@@ -24,7 +34,7 @@ const projects = [
     deployedUrl: "https://mamathamereddy.github.io/fastestPresser/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Weather App",
     image: weather,
     type: "JavaScript",
@@ -32,7 +42,15 @@ const projects = [
     deployedUrl: "https://mamathamereddy.github.io/weather-app/",
   },
   {
-    id: 4,
+    id: 5,
+    name: "Giphy search",
+    image: giphy,
+    type: "JavaScript-dom",
+    githubUrl: "https://github.com/mamathamereddy/Giphi-api",
+    deployedUrl: "https://giphy-searcher-site.netlify.app",
+  },
+  {
+    id: 6,
     name: "github user searcher",
     image: github,
     type: "Reactjs",
