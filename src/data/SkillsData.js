@@ -2,7 +2,7 @@ const skills = [
   {
     id: 1,
     heading: "Frontend development",
-    text: "I have experience building applications using Html,css,Javascript,React ....",
+    text: "I have experience building applications using Html,css,Javascript,React,ReactNative,Typescript ....",
     imageUrl:
       "https://e7.pngegg.com/pngimages/335/238/png-clipart-computer-setting-illustration-software-web-development-icon-software-s-miscellaneous-web-design.png",
   },

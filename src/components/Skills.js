@@ -9,6 +9,7 @@ const Skills = () => {
     "Javascript",
     "React",
     "Reactanative",
+    "Typrscript",
     "Nodejs",
     "ExpressJs",
     "Storybook",
