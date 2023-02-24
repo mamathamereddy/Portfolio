@@ -1,4 +1,4 @@
-//import hotel from "../images/hotel.png";
+import hotel from "../images/hotel.png";
 import weather from "../images/weather.png";
 //import meal from "../images/mealsharing.jpg";
 import fastestpresser from "../images/fastestpresser.jpg";
@@ -59,14 +59,14 @@ const projects = [
     deployedUrl: "https://user-searcher-github.netlify.app",
   },
 
-  // {
-  //   id: 4,
-  //   name: "Hotel Booking",
-  //   image: hotel,
-  //   type: "MERN Stack",
-  //   githubUrl: "https://github.com/mamathamereddy/HotelBooking-Client",
-  //   deployedUrl: "https://hotel-bookingapp.netlify.app/",
-  // },
+  {
+    id: 4,
+    name: "Hotel Booking",
+    image: hotel,
+    type: "React/contentful",
+    githubUrl: "https://github.com/mamathamereddy/resort-app",
+    deployedUrl: "https://resort-contentful-app.netlify.app/",
+  },
   // {
   //   id: 5,
   //   name: "Meal sharing",
