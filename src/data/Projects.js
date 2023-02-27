@@ -6,6 +6,7 @@ import fastestpresser from "../images/fastestpresser.jpg";
 import github from "../images/github.jpg";
 import resume from "../images/resume.jpg";
 import giphy from "../images/giphy.jpg";
+import quizz from "../images/quizz.jpg";
 import wordpress from "../images/wordpress.jpg";
 
 const projects = [
@@ -66,6 +67,14 @@ const projects = [
     type: "React/contentful",
     githubUrl: "https://github.com/mamathamereddy/resort-app",
     deployedUrl: "https://resort-contentful-app.netlify.app/",
+  },
+  {
+    id: 5,
+    name: "Quizz App",
+    image: quizz,
+    type: "React/Typescript",
+    githubUrl: "https://github.com/mamathamereddy/Quiz-app",
+    deployedUrl: "https://react-typescript-quizz-app.netlify.app/",
   },
   // {
   //   id: 5,
