@@ -10,7 +10,7 @@ const Experience = () => {
           <div class="containerExp left">
             <div class="content">
               <h4>
-                ReactNative Developer @ Fuelvision <span> 8/2021-09/2022</span>
+                ReactNative Developer @ Fuelvision <span> 8/2021-12/2022</span>
               </h4>
               <p>
                 Assisting pilots/airlines to decrease their aggregate carbon
@@ -48,7 +48,7 @@ const Experience = () => {
           <div class="containerExp right">
             <div class="content">
               <h4>
-                ReactNative Developer(Intern)@JoyN <span> 05/2021-08/2021</span>
+                ReactNative Developer@JoyN <span> 05/2021-08/2021</span>
               </h4>
               <p>
                 JOYN is a social network for people around the world. Connect
@@ -84,8 +84,7 @@ const Experience = () => {
           <div class="containerExp left">
             <div class="content">
               <h4>
-                Frontend Developer(Intern)@ ating aps{" "}
-                <span> 6/2020-12/2020</span>
+                Frontend Developer@ ating aps <span> 6/2020-1/2021</span>
               </h4>
               <p>
                 Ating aps is a software solution for creating the most gameable
