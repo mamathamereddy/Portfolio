@@ -1,4 +1,4 @@
-import hotel from "../images/hotel.png";
+import hotel from "../images/hotel.jpg";
 import weather from "../images/weather.png";
 //import meal from "../images/mealsharing.jpg";
 import fastestpresser from "../images/fastestpresser.jpg";
