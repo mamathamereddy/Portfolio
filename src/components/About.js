@@ -53,7 +53,7 @@ const About = () => {
                 </div>
                 <div className="about__info-p2">
                   After graduating from Hackyour Future worked as front-end
-                  developer intern at
+                  developer at
                   <a
                     target="_blank"
                     href="https://www.ating.app//"
@@ -75,9 +75,8 @@ const About = () => {
                     {" "}
                     JOYN{" "}
                   </a>
-                  as a ReactNative developer intern at where i got the
-                  confidence of working with ReactNative and working with
-                  firebase-firestore
+                  as a ReactNative developer at where i got the confidence of
+                  working with ReactNative and working with firebase-firestore
                 </div>
 
                 <div className="about__info-p2">
