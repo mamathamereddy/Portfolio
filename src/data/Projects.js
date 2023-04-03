@@ -1,5 +1,5 @@
 import hotel from "../images/hotel.jpg";
-import weather from "../images/weather.png";
+import weather from "../images/weather.jpg";
 //import meal from "../images/mealsharing.jpg";
 import fastestpresser from "../images/fastestpresser.jpg";
 //import project from "../images/project.jpg";
