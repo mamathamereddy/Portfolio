@@ -8,6 +8,7 @@ import resume from "../images/resume.jpg";
 import giphy from "../images/giphy.jpg";
 import quizz from "../images/quizz.jpg";
 import wordpress from "../images/wordpress.jpg";
+import shoppingcart from "../images/shoppingcart.jpg";
 
 const projects = [
   {
@@ -67,6 +68,14 @@ const projects = [
     type: "React/contentful",
     githubUrl: "https://github.com/mamathamereddy/resort-app",
     deployedUrl: "https://resort-contentful-app.netlify.app/",
+  },
+  {
+    id: 4,
+    name: "Shoppingcart",
+    image: shoppingcart,
+    type: "MERN/Redux",
+    githubUrl: "https://github.com/mamathamereddy/React-redux-app",
+    deployedUrl: "https://shoppingcart-react-withredux.netlify.app/",
   },
   {
     id: 5,
