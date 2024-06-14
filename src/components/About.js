@@ -30,15 +30,20 @@ const About = () => {
             <div className="about__info">
               <Slide left>
                 <div className="about__info-p1">
-                  I'm Enthusiastic and highly motivated with hands-on experience
+                  {/* I'm Enthusiastic and highly motivated with hands-on experience
                   in creating websites that provide a clean and user-friendly
                   experience . Also, I am highly motivated to learn new
                   technologies in a fast pace, and deepen my knowledge and
-                  experience in coding and development
+                  experience in coding and development/ */}
+                  I am an enthusiastic and highly motivated developer with
+                  hands-on experience in creating clean and user-friendly
+                  websites. Driven by a passion for rapidly learning new
+                  technologies, I am committed to deepening my knowledge and
+                  expertise in coding and development.
                 </div>
                 <div className="about__info-p2">
-                  when i decided to restart my carrer as developer,I want to
-                  upgraded myself,I started my journey as developer in
+                  To restart my career as a developer, I embarked on a journey
+                  at
                   <a
                     target="_blank"
                     href="https://www.hackyourfuture.dk/"
@@ -47,13 +52,12 @@ const About = () => {
                     {" "}
                     HackYourFuture coding school
                   </a>
-                  , where I was working on different projects and gained
-                  hands-on experience in working with Html, css, JavaScript,
-                  React, NodeJS, ExpressJS, MySQL etc.
+                  here, I worked on diverse projects, gaining practical
+                  experience with HTML, CSS, JavaScript, React, Node.js,
+                  Express.js, MySQL, and more.
                 </div>
                 <div className="about__info-p2">
-                  After graduating from Hackyour Future worked as front-end
-                  developer at
+                  Upon graduating from HackYourFuture, I joined
                   <a
                     target="_blank"
                     href="https://www.ating.app//"
@@ -62,11 +66,7 @@ const About = () => {
                     {" "}
                     Ating aps.
                   </a>
-                  where i gained experince of working with React,Reactnative and
-                  MongoDB.
-                </div>
-                <div className="about__info-p2">
-                  I joined
+                  and later
                   <a
                     target="_blank"
                     href="https://www.linkedin.com/company/thejoynapp/about/"
@@ -75,12 +75,16 @@ const About = () => {
                     {" "}
                     JOYN{" "}
                   </a>
-                  as a ReactNative developer at where i got the confidence of
-                  working with ReactNative and working with firebase-firestore
+                  as a React Native developer. During this time, I refined my
+                  skills in React, React Native, MongoDB, and Firebase
+                  Firestore. I gained confidence in developing robust
+                  applications and collaborating with UI/UX designers and
+                  back-end developers to optimize performance and enhance user
+                  experiences.
                 </div>
 
                 <div className="about__info-p2">
-                  I was with
+                  Subsequently, I worked at
                   <a
                     target="_blank"
                     href="https://www.fuelvision.io/"
@@ -89,10 +93,26 @@ const About = () => {
                     {" "}
                     Fuelvision{" "}
                   </a>
-                  as ReactNative developer where i was responsible for building
-                  the first version of application from stratch using
-                  JavaScript,React,ReactNative and also gained some experience
-                  in working with TypeScript.
+                  as a React Native developer, where I was one among to built
+                  the first version of the application from scratch using
+                  JavaScript, React, React Native, and TypeScript.
+                </div>
+                <div className="about__info-p2">
+                  Most recently, I am a developer at
+                  <a
+                    target="_blank"
+                    href="https://proroom.dk/"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    ProRoom{" "}
+                  </a>
+                  where I developed new features for the mobile app on both iOS
+                  and Android, optimized app components, and enhanced the
+                  product’s features and performance. I collaborated closely
+                  with designers and back-end developers to optimize database
+                  queries and improve overall application performance.
+                  Additionally, I ma
                 </div>
                 {/* <div className="info__contacts">
                   <div className="row">
