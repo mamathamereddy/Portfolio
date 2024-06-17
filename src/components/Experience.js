@@ -7,6 +7,41 @@ const Experience = () => {
         <h1 className="headerExp">Experience</h1>
         <div className="commonBorder"></div>
         <div class="timeline">
+          <div class="containerExp right">
+            <div class="content">
+              <h4>
+                ReactNative Developer@Proroom <span> 01/2023-02/2024</span>
+              </h4>
+              <p>
+                Proroom provides an app that let the shop to have an opportunity
+                to stay open 24 hours a day and let customers in without being
+                present - in your existing showroom.
+              </p>
+              <p className="task">Tasks Performed</p>
+              <ul>
+                <li>
+                  Constantly improving functionality of the product using
+                  ReactJs(Hooks),Javascript(JSX) and Developing new user-facing
+                  features using React Native
+                </li>
+                <li>
+                  Optimising app components and improving the product’s features
+                  and performance.
+                </li>
+
+                <li>
+                  Participated in daily team meetings to discuss current and
+                  future strategies on how to produce efficient work.
+                </li>
+
+                <li>
+                  Involved in system development related tasks, including User
+                  Interface, User Experience, SCRUM agile development processes.
+                </li>
+                <li>Relesing the app to App store and Play store</li>
+              </ul>
+            </div>
+          </div>
           <div class="containerExp left">
             <div class="content">
               <h4>
@@ -116,7 +151,7 @@ const Experience = () => {
               </ul>
             </div>
           </div>
-          <div class="containerExp right">
+          {/* <div class="containerExp right">
             <div class="content">
               <h4>
                 Tolker @Tolk Denmark <span> 2018-2020</span>
@@ -139,8 +174,8 @@ const Experience = () => {
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="containerExp left">
+          </div> */}
+          {/* <div class="containerExp left">
             <div class="content">
               <h4>
                 Production Specialst @DFD <span> 2011-2017</span>
@@ -156,7 +191,7 @@ const Experience = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
